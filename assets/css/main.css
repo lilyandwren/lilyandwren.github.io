@@ -102,7 +102,7 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-color: #000;
+		background-color: #fff;
 		padding: 6em 4em 4em 4em;
 	}
 
@@ -291,7 +291,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(154, 190, 255, 176);
 		font-family: "Roboto", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
