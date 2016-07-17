@@ -291,7 +291,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(154, 190, 255, 176);
+		color: black;
 		font-family: "Roboto", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -344,19 +344,19 @@
 		-webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.25);
+		border-bottom: dotted 1px, black;
 		color: #1cb495;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: black;
 			color: #1cb495 !important;
 			text-decoration: none;
 		}
 
 	strong, b {
-		color: #fff;
+		color: #000;
 		font-weight: 700;
 	}
 
@@ -369,7 +369,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #000;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -470,7 +470,7 @@
 	}
 
 	header p {
-		color: rgba(255, 255, 255, 0.5);
+		color: black;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -644,7 +644,7 @@
 				}
 
 	label {
-		color: #fff;
+		color: #b0be9a;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -952,7 +952,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-		background-color: #1cb495;
+		background-color: #b0be9a;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff !important;
@@ -1113,11 +1113,11 @@
 	}
 
 		#footer .icons {
-			margin: 0 0 0.5em 0;
+			margin: 0 0 2em 0;
 		}
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 1em;
 			list-style: none;
 			padding: 0;
 		}
