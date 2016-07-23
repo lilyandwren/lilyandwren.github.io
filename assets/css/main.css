@@ -1046,6 +1046,10 @@
 		}
 
 	}
+	
+	#mc_embed_signup form {
+		padding:0!important;
+	}
 
 /* Signup Form */
 
