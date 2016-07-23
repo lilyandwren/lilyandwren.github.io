@@ -938,7 +938,7 @@
 	}
 	
 	#mc_embed_signup .indicates-required {
-		text-align:left;
+		text-align:left!important;
 	}
 
 /* Button */
