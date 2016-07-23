@@ -1185,7 +1185,7 @@
 
 		}
 
-		@media screen and (max-height: 640px) {
+		@media screen and (max-height: 970px) {
 
 			#footer {
 				bottom: auto;
